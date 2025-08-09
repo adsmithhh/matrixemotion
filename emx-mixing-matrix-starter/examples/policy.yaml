@@ -1,0 +1,17 @@
+emx_version: "0.1.0"
+metadata:
+  name: "policy-only"
+  description: "Standalone policy demo for operators and guards."
+emotions: [joy, trust]
+matrix: [[0.0, 0.0],[0.0, 0.0]]
+params:
+  decay: 0.0
+  dt: 1.0
+  nonlinearity: identity
+  caps: [1,1]
+  policy:
+    isnt_operator:
+      bind_to_nearest_clause: true
+      drop_weaker_anchor: true
+    zero_equals_one_probe: true
+initial_state: [0.0, 0.0]

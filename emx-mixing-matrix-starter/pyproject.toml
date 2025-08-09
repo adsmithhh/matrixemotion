@@ -1,0 +1,13 @@
+[build-system]
+requires = ["setuptools>=61.0", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "emx-mixing-matrix"
+version = "0.1.0"
+description = "Open Emotional Mixing Matrix format and reference engine"
+authors = [{name="EMX Contributors"}]
+readme = "README.md"
+license = {text = "Apache-2.0"}
+requires-python = ">=3.9"
+dependencies = ["pyyaml"]
