@@ -17,6 +17,13 @@ Based on Dr. Robert Plutchik's theory, EMX models eight primary emotions as the 
 
 By representing these emotions as a matrix, EMX enables complex, dynamic, and realistic emotional states for autonomous agents.
 
+### Visualize the Mixing Matrix
+You can generate the EMX mixing diagram using:
+
+```bash
+python examples/plot_matrix.py
+
+
 ## Features
 
 - Interoperable matrix format + reference engine
